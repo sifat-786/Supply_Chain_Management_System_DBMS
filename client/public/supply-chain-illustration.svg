@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="#F0F9FF" opacity="0.5" />
+  <circle cx="400" cy="300" r="200" fill="#E0F2FE" opacity="0.3" />
+  <circle cx="400" cy="300" r="150" fill="#BAE6FD" opacity="0.2" />
+
+  <!-- Supply Chain Flow -->
+  <path
+    d="M200 300 L600 300"
+    stroke="#0EA5E9"
+    stroke-width="4"
+    stroke-dasharray="20 10"
+    fill="none"
+  />
+
+  <!-- Factory -->
+  <rect x="150" y="250" width="100" height="80" rx="10" fill="#0EA5E9" />
+  <path
+    d="M170 250 L200 220 L230 250"
+    stroke="white"
+    stroke-width="2"
+    fill="none"
+  />
+  <rect x="180" y="270" width="40" height="40" rx="5" fill="white" />
+  <rect x="190" y="280" width="20" height="20" rx="2" fill="#0EA5E9" />
+
+  <!-- Warehouse -->
+  <rect x="350" y="250" width="100" height="80" rx="10" fill="#0EA5E9" />
+  <path
+    d="M370 250 L400 220 L430 250"
+    stroke="white"
+    stroke-width="2"
+    fill="none"
+  />
+  <rect x="380" y="270" width="40" height="40" rx="5" fill="white" />
+  <rect x="390" y="280" width="20" height="20" rx="2" fill="#0EA5E9" />
+
+  <!-- Store -->
+  <rect x="550" y="250" width="100" height="80" rx="10" fill="#0EA5E9" />
+  <path
+    d="M570 250 L600 220 L630 250"
+    stroke="white"
+    stroke-width="2"
+    fill="none"
+  />
+  <rect x="580" y="270" width="40" height="40" rx="5" fill="white" />
+  <rect x="590" y="280" width="20" height="20" rx="2" fill="#0EA5E9" />
+
+  <!-- Icons -->
+  <circle cx="200" cy="300" r="20" fill="#0EA5E9" />
+  <circle cx="400" cy="300" r="20" fill="#0EA5E9" />
+  <circle cx="600" cy="300" r="20" fill="#0EA5E9" />
+
+  <!-- Labels -->
+  <text x="200" y="350" text-anchor="middle" fill="#0EA5E9" font-family="Arial" font-size="16">
+    Manufacturer
+  </text>
+  <text x="400" y="350" text-anchor="middle" fill="#0EA5E9" font-family="Arial" font-size="16">
+    Warehouse
+  </text>
+  <text x="600" y="350" text-anchor="middle" fill="#0EA5E9" font-family="Arial" font-size="16">
+    Store
+  </text>
+
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="10" fill="#0EA5E9" opacity="0.3" />
+  <circle cx="700" cy="500" r="15" fill="#0EA5E9" opacity="0.3" />
+  <circle cx="150" cy="450" r="12" fill="#0EA5E9" opacity="0.3" />
+  <circle cx="650" cy="150" r="8" fill="#0EA5E9" opacity="0.3" />
+</svg> 

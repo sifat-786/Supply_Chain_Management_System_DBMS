@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="url(#gradient-bg)" opacity="0.1" />
+  
+  <!-- Supply Chain Flow -->
+  <g id="supply-chain-flow">
+    <!-- Supplier -->
+    <rect x="100" y="200" width="120" height="80" rx="10" fill="#1976d2" opacity="0.8" />
+    <text x="160" y="245" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Supplier</text>
+    
+    <!-- Arrow 1 -->
+    <path d="M220 240 L280 240" stroke="#1976d2" stroke-width="4" marker-end="url(#arrowhead)" />
+    
+    <!-- Manufacturer -->
+    <rect x="300" y="200" width="120" height="80" rx="10" fill="#4caf50" opacity="0.8" />
+    <text x="360" y="245" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Manufacturer</text>
+    
+    <!-- Arrow 2 -->
+    <path d="M420 240 L480 240" stroke="#4caf50" stroke-width="4" marker-end="url(#arrowhead)" />
+    
+    <!-- Distributor -->
+    <rect x="500" y="200" width="120" height="80" rx="10" fill="#ff9800" opacity="0.8" />
+    <text x="560" y="245" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Distributor</text>
+    
+    <!-- Arrow 3 -->
+    <path d="M620 240 L680 240" stroke="#ff9800" stroke-width="4" marker-end="url(#arrowhead)" />
+    
+    <!-- Retailer -->
+    <rect x="700" y="200" width="120" height="80" rx="10" fill="#9c27b0" opacity="0.8" />
+    <text x="760" y="245" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Retailer</text>
+  </g>
+  
+  <!-- Products -->
+  <g id="products">
+    <!-- Product 1 -->
+    <rect x="150" y="350" width="60" height="60" rx="5" fill="#1976d2" opacity="0.6" />
+    <text x="180" y="385" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Product A</text>
+    
+    <!-- Product 2 -->
+    <rect x="350" y="350" width="60" height="60" rx="5" fill="#4caf50" opacity="0.6" />
+    <text x="380" y="385" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Product B</text>
+    
+    <!-- Product 3 -->
+    <rect x="550" y="350" width="60" height="60" rx="5" fill="#ff9800" opacity="0.6" />
+    <text x="580" y="385" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Product C</text>
+    
+    <!-- Product 4 -->
+    <rect x="750" y="350" width="60" height="60" rx="5" fill="#9c27b0" opacity="0.6" />
+    <text x="780" y="385" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Product D</text>
+  </g>
+  
+  <!-- Data Flow -->
+  <g id="data-flow">
+    <!-- Data Line 1 -->
+    <path d="M160 280 C160 320, 360 320, 360 280" stroke="#1976d2" stroke-width="2" stroke-dasharray="5,5" />
+    
+    <!-- Data Line 2 -->
+    <path d="M360 280 C360 320, 560 320, 560 280" stroke="#4caf50" stroke-width="2" stroke-dasharray="5,5" />
+    
+    <!-- Data Line 3 -->
+    <path d="M560 280 C560 320, 760 320, 760 280" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5" />
+  </g>
+  
+  <!-- Central Hub -->
+  <circle cx="400" cy="300" r="40" fill="#f44336" opacity="0.8" />
+  <text x="400" y="305" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Hub</text>
+  
+  <!-- Connections to Hub -->
+  <path d="M160 240 L360 240" stroke="#f44336" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M360 240 L560 240" stroke="#f44336" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M560 240 L760 240" stroke="#f44336" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="gradient-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1976d2" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#9c27b0" stop-opacity="0.1" />
+    </linearGradient>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1976d2" />
+    </marker>
+  </defs>
+</svg> 
