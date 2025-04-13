@@ -1,6 +1,6 @@
 # Supply Chain Management System
 
- I made this project for Database Management Systems (DBMS) and Web Development. This project contains theoretical as well as implementation in backend-Node.js/Express and FrontEnd-React.js.
+ I made this project for Database Management Systems (DBMS) and Web Development. This project contains theoretical as well as implementation in Database Management,backend-Node.js/Express and FrontEnd-React.js.
 
 
 
